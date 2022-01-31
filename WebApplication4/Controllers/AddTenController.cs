@@ -9,11 +9,6 @@ namespace WebApplication4.Controllers
 {
     public class AddTenController : ApiController
     {
-        public string Get()
-        {
-            string message = "Hello!"; 
-            return message;
-        }
 
         public int Get(int id)
         {
